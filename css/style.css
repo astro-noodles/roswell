@@ -59,17 +59,20 @@ a:hover {
 
 
 /* Media query for devices with a minimum width of 768px (landscape orientation) */
+/* Media query for devices with a minimum width of 768px (landscape orientation) */
 @media screen and (min-width: 768px) {
-    body {
-        margin-left: 20px !important; /* Override the default margin */
-        margin-right: 20px !important; /* Override the default margin */
+    .body {
+        margin-left: 20px; /* Ensure margin remains 20px */
+        margin-right: 20px; /* Ensure margin remains 20px */
+        width: calc(100% - 40px); /* Calculate width to fit the screen */
     }
 }
 
 /* Media query for devices with a maximum width of 767px (portrait orientation) */
 @media screen and (max-width: 767px) {
-    body {
-        margin-left: 20px !important; /* Override the default margin */
-        margin-right: 20px !important; /* Override the default margin */
+    .body {
+        margin-left: 20px; /* Ensure margin remains 20px */
+        margin-right: 20px; /* Ensure margin remains 20px */
+        width: calc(100% - 40px); /* Calculate width to fit the screen */
     }
 }
