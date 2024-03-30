@@ -1,0 +1,58 @@
+
+body {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: monospace; /* Use Monaco font with monospace as fallback */
+    color: grey; /* Set font color to grey */
+    margin-top: 200px; /* Set top margin to 200px */
+    margin-bottom: 200px; /* Set bottom margin to 200px */
+}
+
+.main-page {
+    width: 400px; /* Set width of main page to 400px */
+    margin: 0 auto; /* Center align main page horizontally */
+}
+
+.text-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/* Normal link color */
+a {
+    color: #2bbc8a; /* Teal color */
+    letter-spacing: 2px;
+    text-decoration: underline; /* Remove underline by default */
+}
+
+/* Link color during hover */
+a:hover {
+    color: orange; /* Change color to orange on hover */
+}
+
+
+.title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+    display: inline-block; /* Make the title and icon appear on the same line */
+    margin-right: 20px; /* Adjust the margin between the title and icon */
+}
+
+.icon img {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+    border-radius: 5px;
+    background-size: 50px;
+    background-repeat: no-repeat;
+
+    /* Align the icon vertically centered with the title */
+}
+
+.nav {
+  vertical-align: middle;
+  color: #2bbc8a;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
