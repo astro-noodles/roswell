@@ -58,7 +58,18 @@ a:hover {
 }
 
 
-@media (max-width: 667px) {
+/* Media query for devices with a minimum width of 768px (landscape orientation) */
+@media screen and (min-width: 768px) {
     body {
-        margin: 20px; /* Adjusted margin for smaller screens */
+        margin-left: 20px;
+        margin-right: 20px;
     }
+}
+
+/* Media query for devices with a maximum width of 767px (portrait orientation) */
+@media screen and (max-width: 767px) {
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
