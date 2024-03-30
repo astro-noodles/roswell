@@ -4,8 +4,9 @@ body {
     font-size: 14px;
     font-family: monospace; /* Use Monaco font with monospace as fallback */
     color: grey; /* Set font color to grey */
-    margin-top: 200px; /* Set top margin to 200px */
-    margin-bottom: 200px; /* Set bottom margin to 200px */
+    margin-top: 10%; /* Set top margin to 200px */
+    margin-bottom: 10%; /* Set bottom margin to 200px */
+
 }
 
 .main-page {
@@ -15,7 +16,7 @@ body {
 
 .text-box {
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: justify;
 }
 /* Normal link color */
@@ -56,3 +57,9 @@ a:hover {
   font-weight: 200;
   letter-spacing: 2px;
 }
+
+
+@media (max-width: 767px) {
+    body {
+        margin: 10px; /* Adjusted margin for smaller screens */
+    }
