@@ -9,14 +9,13 @@ body {
 }
 
 .main-page {
-    width: 400px; /* Set width of main page to 400px */
+    width: 450px; /* Set width of main page to 400px */
     margin: 0 auto; /* Center align main page horizontally */
 }
 
 .text-box {
     margin-top: 40px;
     margin-bottom: 40px;
-    text-align: justify;
 }
 /* Normal link color */
 a {
@@ -64,7 +63,7 @@ a:hover {
     .body {
         margin-left: 20px; /* Ensure margin remains 20px */
         margin-right: 20px; /* Ensure margin remains 20px */
-        width: calc(100% - 40px); /* Calculate width to fit the screen */
+        width: calc(100% - 40px) !important ;   /* Calculate width to fit the screen */
     }
 }
 
@@ -73,6 +72,6 @@ a:hover {
     .body {
         margin-left: 20px; /* Ensure margin remains 20px */
         margin-right: 20px; /* Ensure margin remains 20px */
-        width: calc(100% - 40px); /* Calculate width to fit the screen */
+        width: calc(100% - 40px) !important ; /* Calculate width to fit the screen */
     }
 }
