@@ -6,40 +6,17 @@
      <title>Lu Chou, Ph.D.</title>
       <link rel="stylesheet" type="text/css" href="css/business.css">
       <link rel="stylesheet" href="lib/font-awesome/css/all.min.css">
-      <script type="text/javascript" src="css/business.js"></script>
    </head>
 
-
-   <body>
-
-
-     <!-- The front is based on of my SVG link hover effect https://codepen.io/Zeaklous/pen/kyGqm -->
-
-
-
-
-  <div class="card">
-
-    <div class="card-front">
-      <h1 class="logo">Lu Chou, PhD</h1>
-    </div>
-
-    <div class="card-back">
-      <h3 class="name">Lu Chou, PhD</h3>
-      <div>NASA Goddard Space Flight Center</div>
-      <div class="info">
-        <p><span class="property">Email: </span>luoth.chou@nasa.gov</p>
-        <p><span class="property">Twitter: </span>@astro_noodles</p>
-        <p><span class="property">Phone: </span>+1-(703)-638-9924</p>
-        <p><span class="property">Website: </span>astrobio.lu</p>
-      </div>
-    </div>
-
-  </div>
+   <div class="flipCard">
+     <div class="card" onclick="this.classList.toggle('flipped');">
+       <div class="side front">Lu Chou, PhD</div>
+       <div class="side back">Name<br/>Position</div>
+     </div>
+   </div>
 
 
 
 
-</body>
 
 </html>
