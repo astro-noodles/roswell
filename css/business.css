@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
 
-body { background: #efefef; overflow-x: hidden; }
 
 .flipCard {
   -webkit-perspective: 800;
