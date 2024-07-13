@@ -3,20 +3,26 @@
 
 
 .flipCard {
-  -webkit-perspective: 800;
-  -ms-perspective: 800;
-  -moz-perspective: 800;
-  -o-perspective: 800;
-   width: 525px;
-   height: 300px;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   /* width: 525px;
+   height: 300px; */
+   width: 375px;
+   height: 215px;
    font-family: 'Lato', sans-serif;
    background-color: #fff;
    /* font-variant: small-caps; */
-   letter-spacing: 2px;
+   letter-spacing: 1px;
+
+   /*center everything*/
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   /* width:50% */
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+
 }
 
 .flipCard .card.flipped {
@@ -56,16 +62,14 @@
 }
 
 .flipCard .card .side {
-  bottom:30px;
-  left:30px;
-  /* width: 88.5%;
-  height: 80%; */
+
   display: inline-block;
   justify-content: center;
   text-align: center;
   align-items: center;
   cursor: pointer;
   position: absolute;
+
   z-index: 2;
   backface-visibility: hidden;  /* W3C */
   -webkit-backface-visibility: hidden; /* Safari & Chrome */
@@ -78,26 +82,36 @@
 .flipCard .card .front {
   width: 88.5%;
   height: 80%;
-  font-size: 1.05em;
+  font-size: 0.9em;
   /* text-align: center; */
   color:#0B3D91;
   border: solid 1px #0B3D91;
   vertical-align: middle;
   font-variant: small-caps;
+  /*center everything*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* width:50% */
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .flipCard .card .back {
   /* left:0px; */
-  top:35px;
-  bottom:30px;
-  left:30px;
-  width: 88.5%;
-  height: 85%;
-  font-size: 1em;
+  top:10%;
+  right:5%;
+  width: 90%;
+  height: 80%;
+  font-size: 0.9em;
   text-align: left;
   color: white;
   text-transform:uppercase;
 }
+
 
 dl dt{
   float: left;
@@ -114,6 +128,9 @@ dl dd{
 }
 
 @media (max-width:700px) {
-  .flipCard { transform: scale(.5); }
-  flipCard { transform: scale(.5) rotateY(-180deg) translateZ(1px); }
+  /* .flipCard {transform: scale(1); } */
+  .flipCard {
+    }
+
+  /* flipCard { transform: scale(.5) rotateY(-180deg) translateZ(1px); } */
 }
