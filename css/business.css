@@ -87,7 +87,7 @@
   color:#0B3D91;
   border: solid 1px #0B3D91;
   vertical-align: middle;
-  font-variant: small-caps;
+  /* font-variant: small-caps; */
   /*center everything*/
   position: fixed;
   top: 50%;
@@ -102,14 +102,14 @@
 
 .flipCard .card .back {
   /* left:0px; */
-  top:10%;
+  top:15%;
   right:5%;
   width: 90%;
   height: 80%;
   font-size: 0.9em;
   text-align: left;
   color: white;
-  text-transform:uppercase;
+  /* text-transform:uppercase; */
 }
 
 
