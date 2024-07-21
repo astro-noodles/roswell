@@ -1,5 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,800);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,700);
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
 
 
 .flipCard {
@@ -108,7 +128,7 @@
   height: 80%;
   font-size: 0.9em;
   text-align: left;
-  color: white;
+  color: #f1f1f1;
   /* text-transform:uppercase; */
 }
 
